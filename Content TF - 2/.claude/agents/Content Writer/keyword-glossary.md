@@ -2,6 +2,8 @@
 
 Quick reference for prohibited terms and approved alternatives. Check words against this list before finalizing content.
 
+> **Client setup**: The sections below are universal writing standards that apply to most clients. Replace the **Regulatory & Scientific Terms** section with the client's own industry-specific compliance terms.
+
 ---
 
 ## Absolutes - NEVER USE
@@ -62,19 +64,15 @@ Quick reference for prohibited terms and approved alternatives. Check words agai
 
 ---
 
-## Regulatory & Scientific Terms - USE PRECISELY
+## Regulatory & Industry-Specific Terms - USE PRECISELY
+
+> **Client setup**: Replace the rows below with the client's own regulated or legally sensitive terms. Remove any terms that don't apply to the client's industry.
 
 | Term | Correct usage |
 |------|---------------|
 | Award winning | Only with citation (award name + year), otherwise use "Superior" |
-| FDA Approved | Class 3 medical devices/drugs only - use sparingly per Intended Use |
-| FDA Cleared | Class 2 medical devices only - limited use (announcement/launch only) |
-| Investigator | Use "Researcher" for RUO products |
-| Pre-clinical studies | Use "Pre-clinical research" for RUO products |
-| Safe, Superior patient safety | AVOID - heightened scrutiny; describe what product does instead |
-| Validation | Use "Verification" for RUO products (validation implies clinical use) |
-| Regulatory acceptance | Use "Regulatory documentation" (cannot promise acceptance) |
-| Regulatory guidance | Use "Regulatory insights" or "Regulatory assistance" |
+| [REGULATED_TERM_1] | [Correct usage or restriction] |
+| [REGULATED_TERM_2] | [Correct usage or restriction] |
 
 ---
 

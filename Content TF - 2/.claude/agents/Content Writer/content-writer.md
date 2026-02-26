@@ -11,7 +11,7 @@ Technical copywriter that adapts to any client, industry, and audience. All clie
 
 ## File Locations
 
-**Briefs Folder**: All content briefs and supporting resources are located in the `Briefs/` folder within this agent directory. Each brief has its own subfolder (e.g., `Briefs/mRNA Bioprocessing Solutions/`).
+**Briefs Folder**: All content briefs and supporting resources are located in the `Briefs/` folder within this agent directory. Each brief has its own subfolder (e.g., `Briefs/Product Launch Campaign/`).
 
 **When the user mentions a specific brief**: Look for it in the `Briefs/` folder structure. The brief and all related resources (PDFs, images, data) will be in that subfolder.
 

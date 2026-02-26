@@ -1,8 +1,24 @@
-# Thermo Fisher Brand Guidelines
+# Brand Guidelines
+
+> **Client setup**: Replace every `[PLACEHOLDER]` section below with the client's actual brand information before using this agent. The agent reads this file as the source of truth for who the client is and how they communicate.
+
+---
+
+## Client Identity
+
+**Company name**: [CLIENT_COMPANY_NAME]
+
+**Industry / domain**: [e.g., Life Sciences, SaaS, Financial Services, Healthcare, etc.]
+
+**Target market**: [Brief description of who the client sells to]
+
+**Brand tagline**: [CLIENT_TAGLINE]
+
+---
 
 ## Terminology Standards
 
-CRITICAL: Avoid buzzwords that create legal/regulatory risks or imply unsubstantiated claims.
+CRITICAL: Avoid words that create legal/regulatory risks or imply unsubstantiated claims.
 
 ### How to Apply Terminology Checks
 
@@ -45,14 +61,14 @@ When reviewing content, search for the root term and all its variations to ensur
 | Market shares | [Describe position without market control] |
 | Price increases | [Focus on cost reduction benefits] |
 
-### 4. Regulatory Terms - USE PRECISELY
+### 4. Industry-Specific Regulatory Terms - USE PRECISELY
+
+> **Client setup**: Replace this section with the client's industry-specific regulatory or compliance terms.
 
 | Term | Correct usage |
 |------|---------------|
-| FDA Approved vs FDA Cleared | Use exact term for device class - legally distinct |
-| Safe | AVOID - heightened regulatory scrutiny |
-| Validation | ONLY for clinical use; use "Verification" for RUO products |
-| Regulatory acceptance | AVOID - use "Regulatory documentation" |
+| [REGULATED_TERM_1] | [Correct usage or restriction] |
+| [REGULATED_TERM_2] | [Correct usage or restriction] |
 
 ### 5. Vague/Ambiguous Terms - AVOID
 
@@ -64,45 +80,44 @@ When reviewing content, search for the root term and all its variations to ensur
 | Partner/Partnered | Collaborator, Worked with |
 | Only | One of the first, One of... |
 
-
 ---
 
-## Bioprocessing Messaging Framework
+## Messaging Framework
 
 ### Brand positioning
 
-**Tagline**: "Powering results: From molecule to medicine"
+**Core approach**: [Describe the client's core positioning — e.g., focus on integrated solutions, customer outcomes, platform breadth, etc.]
 
-**Core approach**: Focus on integrated workflow solutions, not individual product features.
+### Key differentiators
 
-### Key differentiators ("Because Only Thermo Fisher")
+> **Client setup**: List 3–5 reasons why the client is distinctive. These should be integrated into content where relevant.
 
-Always integrate these when relevant:
-- Decades of experience improving bioprocess efficiency
-- Scalable platforms that increase yield and reduce time-to-clinic
-- Leadership in sustainable bioprocessing
-- Technical guidance and transparency for decision-making
+- [DIFFERENTIATOR_1]
+- [DIFFERENTIATOR_2]
+- [DIFFERENTIATOR_3]
+- [DIFFERENTIATOR_4]
 
-### Five messaging pillars
+### Messaging pillars
 
-Build content around these customer needs:
+> **Client setup**: List the 3–6 core themes that all content should ladder up to. These represent what the client wants audiences to believe or feel.
 
-1. **Accelerate time to market**
-2. **Maximize resource efficiency**
-3. **Enable high product yield and efficacy**
-4. **Deliver on sustainability**
-5. **Reduce risk in supply and regulatory**
+1. [MESSAGING_PILLAR_1]
+2. [MESSAGING_PILLAR_2]
+3. [MESSAGING_PILLAR_3]
 
 ### Target audiences
 
+> **Client setup**: Define the key audience segments and their roles. Content should address their goals, responsibilities, and pain points.
+
 | Segment | Key roles |
 |---------|-----------|
-| Biopharma | Directors of manufacturing, MSAT leads, QA/QC directors |
-| Biotech | Process development leads, R&D scientists |
-| CDMO/CMO | Principal scientists, tech transfer leads |
-| Cell & Gene Therapy | Principal scientists, clinical operations leads |
+| [SEGMENT_1] | [Role 1, Role 2] |
+| [SEGMENT_2] | [Role 1, Role 2] |
+| [SEGMENT_3] | [Role 1, Role 2] |
 
 **Address their**: Goals, responsibilities, pain points, and values in content.
+
+---
 
 ## Tone of voice
 
@@ -120,10 +135,13 @@ Build content around these customer needs:
 - Sarcastic or hyperbolic
 - Company-first (always put customer first)
 
+---
+
 ## Messaging hierarchy
 
-Connect product-level content to the group-level brand promise:
-- **Product level**: "Powering results in [specific application] using [product name]"
-- **Group level**: "Powering results from molecule to medicine"
+> **Client setup**: Define how product-level content connects to the brand's overarching promise.
+
+- **Product level**: "[CLIENT_TAGLINE] in [specific application] using [product name]"
+- **Brand level**: "[CLIENT_TAGLINE]"
 
 Ensure all communications ladder up to the overarching brand promise.

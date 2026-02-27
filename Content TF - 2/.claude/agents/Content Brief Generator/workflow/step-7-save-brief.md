@@ -18,6 +18,7 @@ Organizing content briefs in dedicated folders ensures:
 
 Ensure you have:
 - **Generated content brief** (from Step 7)
+- **Client Name** (from Step 1)
 - **Page Name** (from Step 1)
 
 ---
@@ -31,19 +32,21 @@ Create a folder inside the Briefs directory using the Page Name:
 **Base directory:** `./Briefs` (relative to current working directory)
 
 **Folder naming convention:**
-- Use the Page Name from Step 1
-- Replace spaces with hyphens
-- Use lowercase for consistency
+- Format: `{Client-Name} - {Page-Name}`
+- Use the Client Name and Page Name from Step 1
+- Keep the exact casing as provided by the client (do not force lowercase)
+- Use ` - ` (space-hyphen-space) as the separator between Client Name and Page Name
+- Replace spaces within each part with hyphens
 - Remove special characters except hyphens
 
 **Example transformations:**
-- "CHO Cell Culture Media" → `cho-cell-culture-media`
-- "Bioprocessing Solutions Overview" → `bioprocessing-solutions-overview`
-- "mRNA Vaccine Production" → `mrna-vaccine-production`
+- Client: "Cytiva", Page: "CHO Cell Culture Media" → `Cytiva - CHO-Cell-Culture-Media`
+- Client: "Thermo Fisher", Page: "Bioprocessing Solutions Overview" → `Thermo-Fisher - Bioprocessing-Solutions-Overview`
+- Client: "Moderna", Page: "mRNA Vaccine Production" → `Moderna - mRNA-Vaccine-Production`
 
 **Command:**
 ```bash
-mkdir -p "./Briefs/<folder-name>"
+mkdir -p "./Briefs/<Client-Name> - <Page-Name>"
 ```
 
 The `-p` flag ensures parent directories exist and doesn't error if folder already exists.
@@ -66,7 +69,7 @@ Write the generated content brief from Step 7 to the file:
 
 **Full file path:**
 ```
-./Briefs/<folder-name>/content-brief.md
+./Briefs/<Client-Name> - <Page-Name>/content-brief.md
 ```
 
 **Content:** The complete content brief output from Step 7, including:
@@ -86,7 +89,7 @@ After saving, confirm the file was created successfully:
 
 **Verification command:**
 ```bash
-ls -lh "./Briefs/<folder-name>/content-brief.md"
+ls -lh "./Briefs/<Client-Name> - <Page-Name>/content-brief.md"
 ```
 
 This displays file size and confirms successful creation.
@@ -100,9 +103,9 @@ After successful save, display:
 ```
 === CONTENT BRIEF SAVED ===
 
-Folder: ./Briefs/<folder-name>/
+Folder: ./Briefs/<Client-Name> - <Page-Name>/
 File: content-brief.md
-Full path: ./Briefs/<folder-name>/content-brief.md
+Full path: ./Briefs/<Client-Name> - <Page-Name>/content-brief.md
 
 Status: ✓ Successfully saved
 
@@ -138,8 +141,8 @@ The content brief is now ready for the content writer to access.
 
 Before completing, verify:
 
-- [ ] Folder name follows naming convention (lowercase, hyphens, no special chars)
-- [ ] Folder created at correct path: `./Briefs/<folder-name>/`
+- [ ] Folder name follows naming convention: `{Client-Name} - {Page-Name}`
+- [ ] Folder created at correct path: `./Briefs/<Client-Name> - <Page-Name>/`
 - [ ] File saved with correct name: `content-brief.md`
 - [ ] File contains complete content brief from Step 7
 - [ ] File creation verified with ls command
@@ -150,32 +153,33 @@ Before completing, verify:
 ## Example Execution
 
 **Given:**
+- Client Name: "Cytiva"
 - Page Name: "CHO Cell Culture Media"
 
 **Steps:**
 
 1. **Create folder:**
 ```bash
-mkdir -p "./Briefs/cho-cell-culture-media"
+mkdir -p "./Briefs/Cytiva - CHO-Cell-Culture-Media"
 ```
 
 2. **Save content brief to file:**
 ```
-./Briefs/cho-cell-culture-media/content-brief.md
+./Briefs/Cytiva - CHO-Cell-Culture-Media/content-brief.md
 ```
 
 3. **Verify:**
 ```bash
-ls -lh "./Briefs/cho-cell-culture-media/content-brief.md"
+ls -lh "./Briefs/Cytiva - CHO-Cell-Culture-Media/content-brief.md"
 ```
 
 4. **Output:**
 ```
 === CONTENT BRIEF SAVED ===
 
-Folder: ./Briefs/cho-cell-culture-media/
+Folder: ./Briefs/Cytiva - CHO-Cell-Culture-Media/
 File: content-brief.md
-Full path: ./Briefs/cho-cell-culture-media/content-brief.md
+Full path: ./Briefs/Cytiva - CHO-Cell-Culture-Media/content-brief.md
 
 Status: ✓ Successfully saved
 

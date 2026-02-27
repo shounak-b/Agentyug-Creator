@@ -20,7 +20,7 @@ D. **Apply the word count range for the Page Type provided in Step 1:**
    | Landing page  | 500         | 1500          |
    | Service page  | 500         | 1200          |
    | Category page | 300         | 800           |
-   | Blog          | 1500        | 3000          |
+   | Blog          | 1100        | 2500          |
    | Pillar page   | 2000        | 4000          |
 
    Use the SERP average from Step C to position the recommendation within the range for that page type. If the SERP average falls below the floor, use the floor. If it exceeds the ceiling, use the ceiling.
